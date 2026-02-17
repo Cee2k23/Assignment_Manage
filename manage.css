@@ -5,10 +5,17 @@
     padding: 0;
 }
 
+/* body{
+    background: url("/images/bg-simplify-section-desktop.svg");
+    z-index: -1;
+} */
+
 .gs{
-    border: none;
-    border-radius: 20px;
     background-color: hsl(12, 88%, 59%);
+    border: none;
+    border-radius: 19px;
+    box-shadow: 0 4px 6px hsl(12, 88%, 59%, 0.4);
+    /* box-shadow: ; */ 
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -16,6 +23,7 @@
 }
 
 .menu{
+    border: 1px solid mediumpurple;
     color: hsl(228, 39%, 23%);
     display: flex;
     /* flex-direction: row; */
@@ -25,12 +33,119 @@
 }
 
 .navb{
+    align-items: center;
+    border: 1px solid maroon;
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
+    gap: 140px;
+    justify-content: center;
+    /* z-index: 1; */
 }
 
 .navb img{
-    /* height: auto; */
-    /* width: auto; */
+    height: 17px;
+    width: 100px;
+}
+
+.div-1{
+    align-items: center;
+    /* border: 2px solid maroon; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.div-1i{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 40%;
+}
+
+.div-1i h1{
+    color: hsl(228, 39%, 23%);
+    font-size: 50px;
+}
+
+.p{
+    /* border: 1px solid maroon; */
+    color: hsl(227, 12%, 61%);
+    font-size: 14px;
+    width: 50%;
+}
+
+.div-1ii{
+    width: 28%;
+}
+
+.div-1 img{
+    width: 100%;
+}
+
+.sub-heading{
+    align-items: center;
+    border: 1px solid cyan;
+    display: flex;
+    flex-direction: column;
+    /* gap: 23px; */
+}
+
+.sub-heading-number{
+    background: hsl(12, 88%, 59%);
+    border-radius: 19px;
+    color: white;
+    font-weight: 200;
+    padding: 10px 23px;
+}
+
+.sub-heading-title{
+    color: hsl(228, 39%, 23%);
+}
+
+.div-2ii p{
+    color: hsl(227, 12%, 61%);
+    /* font-size: 16px; */
+    /* text-align: start; */
+    width: 100%;
+}
+
+.sub-heading-number-and-title{
+    align-items: center;
+    border: 1px solid skyblue;
+    display: flex;
+    /* flex-direction: row; */
+    gap: 20px;
+}
+
+.sub-heading-empty-and-p{
+    border: 1px solid purple;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.sub-heading-empty-and-p div{
+    padding-left: 70px;
+    visibility: hidden;
+}
+
+.div-2{
+    align-items: center;
+    border: 1px solid maroon;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.div-2i{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 40%;
+}
+
+.div-2ii{
+    width: 28%;
 }
